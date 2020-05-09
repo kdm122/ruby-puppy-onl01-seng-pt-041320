@@ -16,7 +16,7 @@ class Dog
   
   def self.print_all
     binding.pry
-    self.class_variable_get
+  #  self.class_variable_get
     @@all.each do |name|
       puts name
     end
